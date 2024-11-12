@@ -563,12 +563,18 @@ body {
     color: #000000;
 }
 
+.list li {
+    list-style-type: none;
+    content: '•';
+    color: #F1CDB3;
+}
+
 li {
     list-style-type: none;
 }
 
 li::before {
-    content: '•';
+
     color: #F1CDB3;
 }
 

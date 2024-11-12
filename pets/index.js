@@ -34,7 +34,7 @@ buttonModal.forEach(button => {
                             <p id="species" class="species">${pet.type} ${'-'} ${pet.breed}</p>
                         </div>
                         <p id="descriptions" class="descriptions">${pet.description}</p>
-                        <ul class="characteristics-list">
+                        <ul class="list">
                             <li id="age"><span class="bold-text">Age:</span><span class="norm-text">${pet.age}</span></li>
                             <li id="inoculations"><span class="bold-text">Inoculations:</span><span class="norm-text">${pet.inoculations}</span></li>
                             <li id="diseases"><span class="bold-text">Diseases:</span><span class="norm-text">${pet.diseases}</span></li>
