@@ -27,7 +27,7 @@ buttonModal.forEach(button => {
         modal.innerHTML = `
             <div class="card-open">
                 <div class="card-content-open">
-                    <img id="img" src="${pet.img}" alt="" width="50%">
+                    <img class="modal_image" id="img" src="${pet.img}" alt="" width="50%">
                     <div class="title-pets">
                         <div class="specialty-pets">
                             <p id="name_pets" class="name-pets">${pet.name}</p>
