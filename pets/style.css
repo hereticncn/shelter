@@ -559,11 +559,34 @@ body {
     height: 500px;
     background: #FAFAFA;
     border-radius: 9px;
+    @media (max-width: 1100px){
+        width: 630px;
+        height: 350px;
+    }
+    @media (max-width: 650px){
+        width: 240px;
+        height: 341px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 .card-content-open {
     display: flex;
     justify-content: space-between;
+}
+
+.modal_image{
+    width: 50%;
+    @media (max-width: 1100px){
+        width: 48%;
+        height: 25%;
+        margin-top: 15px;
+    }
+    @media (max-width: 650px){
+        display: none;
+    }
 }
 
 .title-pets {
@@ -575,6 +598,16 @@ body {
     align-items: center;
     flex-wrap: wrap;
     gap: 40px;
+    @media (max-width: 1100px){
+        padding: 13px 6px 46px 0;
+        gap: 13px;
+    }
+    @media (max-width: 650px){
+        width: 230px;
+        justify-content: center;
+        padding: 13px 6px 46px 0;
+        gap: 14px;
+    }
 }
 
 .name-pets {
@@ -587,6 +620,8 @@ body {
     letter-spacing: 0.06em;
 
     color: #000000;
+    
+    
 }
 
 .species {
@@ -598,6 +633,10 @@ body {
     /* identical to box height, or 23px */
     letter-spacing: 0.06em;
     color: #000000;
+    @media (max-width: 650px){
+        font-size: 17px;
+    }
+    
 }
 
 .descriptions {
@@ -609,25 +648,25 @@ body {
     /* or 17px */
     letter-spacing: 0.06em;
     color: #000000;
+
+    @media (max-width: 1100px){
+        font-size: 13px;
+    }
 }
 
-.list li {
-    list-style-type: none;
-    content: '•';
-    color: #F1CDB3;
+.characteristics-list {
+    width: 190px;
+    
 }
 
 li {
-    list-style-type: none;
-}
-
-li::before {
-
-    color: #F1CDB3;
+    
+    color:#F1CDB3;
 }
 
 li span {
-    margin-left: 15px;
+    
+    margin-left: 0px;
     font-family: 'Georgia';
     font-style: normal;
     font-weight: 700;
@@ -636,6 +675,7 @@ li span {
     /* identical to box height, or 17px */
     letter-spacing: 0.06em;
     color: #000000;
+    
 }
 
 .norm-text {
