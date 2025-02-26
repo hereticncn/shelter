@@ -4,7 +4,7 @@ const modal1 = document.querySelector('.card-open');
 const card = document.querySelector('.card');
 
 async function getJsonMass() {
-    const res = await fetch('/main/pets.json');
+    const res = await fetch('../main/pets.json');
     const data = await res.json();
     return data;
 }
