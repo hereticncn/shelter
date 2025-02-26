@@ -3,6 +3,8 @@ const modal = document.querySelector('.card-open-all'); // Шаблон мода
 const modal1 = document.querySelector('.card-open');
 const card = document.querySelector('.card');
 
+const screenWidth = window.screen.width;
+const screenHeight = window.screen.height;
 
 // слайдер
 
